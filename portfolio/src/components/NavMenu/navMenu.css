@@ -1,0 +1,91 @@
+.navMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--dark-bg);
+}
+.navMenu ul {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.navMenu ul li {
+    display: inline-block;
+    border-radius: 8px;
+    transition: .3s ease background-color;
+}
+.navMenu ul li:hover {
+    background-color: var(--deep-dark);
+}
+.navMenu ul li a {
+    display: inline-block;
+    font-family: 'Roboto';
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: var(--gray-1);
+    outline: none;
+}
+.navMenu ul li a.active {
+    color: white;
+}
+
+.navMenu .mobileMenuIcon {
+    width: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    outline: none;
+    display: none;
+    /*disable pointer events for all elements nested within
+        this element such svg so only this element will have
+        pointer events
+    */
+    * {
+        pointer-events: none;
+    }
+}
+.navMenu ul .closeNavIcon {
+    display: none;
+}
+
+@media only screen and (max-width:750px) {
+    /*first we remove the padding we had on the navMenu because now it mobile view*/
+    .navMenu {
+        padding: 0;
+    }
+    .navMenu .mobileMenuIcon {
+        display: block;
+    }
+    .navMenu .navItems {
+        transition: .3s ease transform;
+        background-color: var(--deep-dark);
+        padding: 2rem;
+        width: 90%;
+        max-width: 300px;
+        border-radius: 12px;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+    .navMenu .hide-navItems {
+        transform: translateY(calc(-100% - 1rem));
+    }
+    .navMenu ul .closeNavIcon {
+        display: block;
+        width: 2rem;
+        margin: 0 0 0 auto;
+        cursor: pointer;
+        * {
+            pointer-events: none;
+        }
+    }
+    .navMenu ul li {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
