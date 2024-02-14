@@ -75,18 +75,23 @@ const ProjectsSection = () => {
                         }}
                     }
                 >
-                    {projectsData.map((project, index) => {
-                        if(index >= 5) return
-                        return (
-                            <SwiperSlide key={project.id}>
-                                <ProjectItem
-                                    title={project.name}
-                                    img={project.img}
-                                    description={project.description}
-                                />
-                            </SwiperSlide>
-                        )
-                    })}
+                    {
+                        projectsData.map((project, index) => {
+                            if(index >= 5) {
+                                return null;
+                            } else {
+                                return (
+                                    <SwiperSlide key={project.id}>
+                                        <ProjectItem
+                                            title={project.name}
+                                            img={project.img}
+                                            description={project.description}
+                                        />
+                                    </SwiperSlide>
+                                );
+                            }
+                        })
+                    }
                 </Swiper>
             </div>
         </div>
