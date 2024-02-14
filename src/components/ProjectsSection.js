@@ -57,12 +57,12 @@ const ProjectsSection = () => {
         <div className='container'>
             <SectionTitle subtitle='Some of my recent works' title='Projects'/>
             <div className='projects_allItems'>
-                <Swiper 
-                    className='swiper-container' 
-                    slidesPerView={1} 
-                    spaceBetween={30} 
-                    modules={[Navigation]} 
-                    navigation 
+                <Swiper
+                    className='swiper-container'
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    modules={[Navigation]}
+                    navigation
                     breakpoints={{
                         640: {
                             slidesPerView: 1,
@@ -80,8 +80,8 @@ const ProjectsSection = () => {
                         return (
                             <SwiperSlide key={project.id}>
                                 <ProjectItem
-                                    title={project.name} 
-                                    img={project.img} 
+                                    title={project.name}
+                                    img={project.img}
                                     description={project.description}
                                 />
                             </SwiperSlide>

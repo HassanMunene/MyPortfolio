@@ -1,5 +1,4 @@
 import React from 'react'
-import { TfiWrite } from "react-icons/tfi";
 import PText from './PText';
 import styled from 'styled-components';
 

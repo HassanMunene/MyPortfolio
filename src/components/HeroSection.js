@@ -189,9 +189,8 @@ const HeroSection = () => {
                     </div>
                     <div className='hero_social_text'>
                     <ul>
-                        <li><a href='#' target='_blank' rel='noreferrer'>FB</a></li>
-                        <li><a href='#' target='_blank' rel='noreferrer'>TW</a></li>
-                        <li><a href='#' target='_blank' rel='noreferrer'>LN</a></li>
+                        <li><a href='safaritechblog.com' target='_blank' rel='noreferrer'>Blog</a></li>
+                        <li><a href='https://www.linkedin.com/in/dennis-muvaa-76b84416b/' target='_blank' rel='noreferrer'>LN</a></li>
                     </ul>
                 </div>
                 </div>
