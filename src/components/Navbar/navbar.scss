@@ -1,0 +1,141 @@
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #181818;
+  color: white;
+  padding: 10px;
+
+  .logo {
+    display: block;
+    align-items: center;
+    text-decoration: none;
+
+    img {
+      width: 50px;
+      height: auto;
+    }
+    .sub-logo {
+      color: #fff;
+      text-align: center;
+      margin-top: -10px;
+      font-weight: bold;
+      font-size: 11px;
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+    a {
+      color: #4d4d4e;
+      margin-left: 30px;
+      text-decoration: none;
+      font-size: 22px;
+
+      .nav-icon {
+        display: none;
+      }
+
+      &:hover {
+        color: #ffd700;
+      }
+    }
+
+    .close-icon {
+      font-size: 2rem;
+      cursor: pointer;
+      display: none;
+    }
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+
+    li {
+      margin: 0 10px;
+
+      a {
+        color: #4d4d4e;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .mobile-link {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+}
+
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #333;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  nav.show {
+    transform: translateX(0);
+  }
+
+  nav a {
+    font-size: 1.2rem;
+  }
+
+  .close-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .mobile-link {
+    display: block;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    flex-direction: row;
+  }
+
+  nav a {
+    margin: 0 15px;
+  }
+}

@@ -1,4 +1,4 @@
-import './navbar.css';
+import './navbar.scss';
 import LogoS from '../../assets/images/logo-s.svg';
 import {Link, NavLink} from 'react-router-dom';
 import { RiHome2Line } from "react-icons/ri";
@@ -15,7 +15,7 @@ import { GiSkills } from "react-icons/gi";
 import { GrProjects } from "react-icons/gr";
 import {useState} from 'react';
 
-const Sidebar = () => {
+const Navbar = () => {
     const [showNav, setShowNav] = useState(false);
 
     const toggleNavBar = () => {
@@ -25,23 +25,27 @@ const Sidebar = () => {
         <div className="nav-bar">
             <Link className="logo" to="/" onClick={() => setShowNav(false)}>
                 <img src={LogoS} alt="logo"/>
-                <h3 className="sub-logo">Hassan</h3>
             </Link>
             <nav className={showNav ? 'show' : ''}>
                 <NavLink exact="true" to="/" activeclassname="active" onClick={() => setShowNav(false)}>
-                     <RiHome2Line/>
+                    <div>Home</div>
+                    <div className="nav-icon"><RiHome2Line/></div>
                 </NavLink>
                 <NavLink exact="true" to="/about" activeclassname="active" className="about-link" onClick={() => setShowNav(false)}>
-                     <FaRegUser/>
+                    <div>About</div>
+                    <div className="nav-icon"><FaRegUser/></div>
                 </NavLink>
                 <NavLink exact="true" to="/contact-me" activeclassname="active" className="contact-link" onClick={() => setShowNav(false)}>
-                    <FaEnvelope/>
+                    <div>Contact</div>
+                    <div className="nav-icon"><FaEnvelope/></div>
                 </NavLink>
                 <NavLink exact="true" to="/skills" activeclassname="active" className="skills-link" onClick={() => setShowNav(false)}>
-                    <GiSkills/>
+                    <div>Skills</div>
+                    <div className="nav-icon"><GiSkills/></div>
                 </NavLink>
                  <NavLink exact="true" to="/projects" activeclassname="active" className="projects-link" onClick={() => setShowNav(false)}>
-                    <GrProjects/>
+                    <div>Projects</div>
+                    <div className="nav-icon"><GrProjects/></div>
                 </NavLink>
                 <IoMdClose className="close-icon" onClick={() => setShowNav(false)}/>
             </nav>
@@ -67,4 +71,4 @@ const Sidebar = () => {
     )
  }
  
- export default Sidebar;
+ export default Navbar;
