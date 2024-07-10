@@ -28,24 +28,24 @@ const Navbar = () => {
             </Link>
             <nav className={showNav ? 'show' : ''}>
                 <NavLink exact="true" to="/" activeclassname="active" onClick={() => setShowNav(false)}>
-                    <div>Home</div>
                     <div className="nav-icon"><RiHome2Line/></div>
+                    <div>Home</div>
                 </NavLink>
                 <NavLink exact="true" to="/about" activeclassname="active" className="about-link" onClick={() => setShowNav(false)}>
-                    <div>About</div>
                     <div className="nav-icon"><FaRegUser/></div>
+                    <div>About</div>
                 </NavLink>
                 <NavLink exact="true" to="/contact-me" activeclassname="active" className="contact-link" onClick={() => setShowNav(false)}>
-                    <div>Contact</div>
                     <div className="nav-icon"><FaEnvelope/></div>
+                    <div>Contact</div>
                 </NavLink>
                 <NavLink exact="true" to="/skills" activeclassname="active" className="skills-link" onClick={() => setShowNav(false)}>
-                    <div>Skills</div>
                     <div className="nav-icon"><GiSkills/></div>
+                    <div>Skills</div>
                 </NavLink>
                  <NavLink exact="true" to="/projects" activeclassname="active" className="projects-link" onClick={() => setShowNav(false)}>
-                    <div>Projects</div>
                     <div className="nav-icon"><GrProjects/></div>
+                     <div>Projects</div>
                 </NavLink>
                 <IoMdClose className="close-icon" onClick={() => setShowNav(false)}/>
             </nav>

@@ -81,52 +81,50 @@
 
 /* Responsive Styles */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .nav-bar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+    nav {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 250px;
+      background-color: #181818;
+      flex-direction: column;
+      align-items: self-start;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: all 0.3s ease-in-out;
+      margin: 0;
 
-  .logo {
-    font-size: 1.5rem;
-  }
+      a {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
 
-  nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    background-color: #333;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-  }
+        .nav-icon {
+          display: block;
+          color: #ffd700;
+        }
+      }
 
-  nav.show {
-    transform: translateX(0);
-  }
+      .close-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+    }
+    nav.show {
+      transform: translateX(0%);
+    }
 
-  nav a {
-    font-size: 1.2rem;
-  }
-
-  .close-icon {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
-  .mobile-link {
-    display: block;
-  }
-
-  ul {
-    margin-top: 0;
+    ul{
+      display: none;
+    }
+    .mobile-link {
+      display: block;
+    }
   }
 }
 
