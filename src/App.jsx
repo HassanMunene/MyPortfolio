@@ -1,16 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-// import other pages if any
 
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        {/* Add other routes here */}
-      </Switch>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 }
 
