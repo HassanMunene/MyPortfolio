@@ -1,16 +1,17 @@
-import './App.css'
-import {Routes, Route} from 'react-router-dom';
-import Layout from './components/Layout/layout.jsx';
- 
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './pages/Home';
+// import other pages if any
+
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-        </Route>
-      </Routes>
-     </>
-  )
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        {/* Add other routes here */}
+      </Switch>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
