@@ -1,10 +1,12 @@
 import react from 'react';
 import HeaderSection from "../components/HeaderSection";
+import HeroSection from "../components/HeroSection";
 
 const Home = () => {
   return (
     <>
-      <HeaderSection/>
+      <HeaderSection />
+      <HeroSection />
     </>
   );
 }

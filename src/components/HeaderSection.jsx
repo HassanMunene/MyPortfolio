@@ -17,7 +17,7 @@ const HeaderSection = () => {
     <nav className=" p-4 absolute top-0 right-0 left-0 navbar">
       {isOpen ? (
         <div className="container mx-auto flex justify-between h-[100vh] bg-[#111] bg-gray-900">
-          <div className={`w-full lg:flex lg:w-auto block`}>
+          <div className="w-full lg:flex lg:w-auto block">
             <ul className="w-full h-full lg:flex lg:space-x-4 mt-4 lg:mt-0 text-white  flex flex-col items-center justify-center">
               <li>
                 <a onClick={toggleMenu} href="/" className="block px-2 py-1 hover:bg-gray-700 w-[120px] flex items-center justify-center  py-5">
@@ -32,7 +32,7 @@ const HeaderSection = () => {
                 </a>
               </li>
               <li>
-                <a onClick={toggleMenu} href="https://github.com/PallaviBobde" target="_blank" className="block px-2 py-1 hover:bg-gray-700 rounded flex items-center justify-center py-5">
+                <a onClick={toggleMenu} href="https://github.com/HassanMunene" target="_blank" className="block px-2 py-1 hover:bg-gray-700 rounded flex items-center justify-center py-5">
                   <FaGithub className="mr-5"/>
                   Github 
                 </a>
@@ -87,5 +87,4 @@ const HeaderSection = () => {
     </nav>
   );
 }
-
 export default HeaderSection;
