@@ -1,4 +1,3 @@
-import "./styles.css";
 import { useState } from "react";
 import { AiFillHome } from "react-icons/ai";
 import { RiContactsFill } from "react-icons/ri";

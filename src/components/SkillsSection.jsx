@@ -1,19 +1,19 @@
-import { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
+import React from "react";
+import {InfiniteMovingCards} from "./ui/InfiniteMovingCards";
 
 const SkillsSection = () => {
   const skills = [
     { name: "React" },
-    { name: "Next js",},
-    { name: "Javascript",},
-    { name: "GIT",},
-    { name: "GitHub",},
-    { name: "Html5",},
-    { name: "CSS",},
-    { name: "C++",},
-    { name: "Tailwind",},
-    { name: "Docker",},
-    { name: "Bootstrap",},
+    { name: "Next js" },
+    { name: "Javascript" },
+    { name: "GIT" },
+    { name: "GitHub" },
+    { name: "Html5" },
+    { name: "CSS" },
+    { name: "C++" },
+    { name: "Tailwind" },
+    { name: "Docker" },
+    { name: "Bootstrap" },
   ];
 
   return (

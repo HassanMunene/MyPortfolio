@@ -39,3 +39,137 @@ html {
     text-wrap: balance;
   }
 }
+
+.gradient-text {
+  background: linear-gradient(to right, #0072ff, #330867);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skill-text{
+  background: linear-gradient(to right, #0072ff, #925ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.altpara {
+  display: none;
+  }
+
+#home{
+  padding-top: 80px;
+}
+
+@media (max-width: 560px) {
+  .amazing-text {
+    padding: 0;
+    line-height: 20px;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #0072ff, #330867);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btn-container {
+    flex-direction: column;
+  }
+  .btn-container a {
+    width: 200px;
+  }
+
+  .para {
+    display: none;
+  }
+  .altpara {
+    display: block;
+    line-height: 24px;
+  }
+  
+}
+@media (max-width: 450px) {
+  .amazing-text {
+    font-size: 1rem;
+  }
+  .fullnametext{
+    font-size:1.5rem;
+  }
+  .altpara{
+    font-size: 14px;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .para {
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .paraProjects {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .resume-container {
+    flex-direction: column;
+  }
+  .resume-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-text a{
+    margin: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .name-text {
+    display: none;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .hideonce{
+    display: none;
+  }
+}
+
+
+.navbar{
+  z-index: 10000000;
+}
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.scroller {
+  --animation-duration: 40s;
+  --animation-direction: forwards;
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration) linear infinite var(--animation-direction);
+}

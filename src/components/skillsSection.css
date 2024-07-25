@@ -1,0 +1,38 @@
+.skills-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.skills-scroller {
+  display: flex;
+  animation: scroll linear infinite;
+  white-space: nowrap;
+  gap: 1rem;
+}
+
+.skills-scroller:hover {
+  animation-play-state: paused;
+}
+
+.skills-item {
+  flex: none;
+  padding: 1rem 2rem;
+  background: #330867;
+  color: white;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@keyframes scroll {
+   0% {
+     transform: translateX(0);
+   }
+   100% {
+     transform: translateX(-100%);
+   }
+ }
+

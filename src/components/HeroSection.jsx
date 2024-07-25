@@ -8,11 +8,8 @@ const HeroSection = () => {
     <div className="">
       <HeaderSection />
       <div className="relative h-[40rem] flex items-center justify-center bg-white dark:bg-black justify-center w-full group" id="home">
-        <motion.h1 
-          initial={{opacity: 0, y: 20,}}
-          animate={{opacity: 1, y: [20, -5, 0],}}
-          transition={{duration: 0.5, ease: [0.4, 0.0, 0.2, 1],}}
-          className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-left mx-[1rem] ">
+        <motion.h1 initial={{opacity: 0, y: 20,}} animate={{opacity: 1, y: [20, -5, 0],}} transition={{duration: 0.5, ease: [0.4, 0.0, 0.2, 1],}} 
+          className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-left mx-[1rem]">
           <p className="mb-2 text-[1.5rem] fullnametext">Hi, I&apos;m Hassan Munene{" "}</p>
           <Highlight className="text-black dark:text-white px-5 text-[2rem]">Amazing Software Developer</Highlight>
           <p className="text-[1rem] font-normal my-5 para">
