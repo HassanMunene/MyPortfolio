@@ -18,20 +18,6 @@ const projects = [
     image: hassan_blog,
     link: "https://hassan-blog-ldjl.onrender.com/",
   },
-    {
-    title: "Hassan's Blog",
-    description: "This is a blog I have built to share my few cents with the rest of the world on different ranging from programming to life skills.",
-    tags: ['Node.js','Express.js','React.js','Redux Toolkit','Tailwind Css'],
-    image: hassan_blog,
-    link: "https://hassan-blog-ldjl.onrender.com/",
-  },
-  {
-    title: "Hassan's Blog",
-    description: "This is a blog I have built to share my few cents with the rest of the world on different ranging from programming to life skills.",
-    tags: ['Node.js','Express.js','React.js','Redux Toolkit','Tailwind Css'],
-    image: hassan_blog,
-    link: "https://hassan-blog-ldjl.onrender.com/",
-  },
   {
     title: "Hassan's Blog",
     description: "This is a blog I have built to share my few cents with the rest of the world on different ranging from programming to life skills.",
