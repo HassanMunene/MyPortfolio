@@ -1,6 +1,6 @@
 # My Portfolio Project
 
-![alt photo](https://github.com/HassanMunene/MyPortfolio/src/assets/images/hassan_blog.png?raw=true)
+![hassan_blog](https://github.com/user-attachments/assets/dee120b5-4d3c-446c-9d33-de85b8493cce)
 
 This is my personal portfolio website built using React and Vite. It showcases my projects, skills, and resume.
 
