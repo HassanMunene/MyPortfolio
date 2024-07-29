@@ -1,8 +1,66 @@
-# React + Vite
+# My Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](./public/portfolio_screenshot.png)
 
-Currently, two official plugins are available:
+This is my personal portfolio website built using React and Vite. It showcases my projects, skills, and resume.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [License](#license)
+
+## Demo
+
+You can check out the live demo of my portfolio [here](https://your-portfolio-link.com).
+
+## Features
+
+- Responsive design
+- Smooth scrolling animations
+- Downloadable resume
+- Project showcase with detailed descriptions
+- Contact form
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/your-portfolio.git
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```bash
+    cd your-portfolio
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+## Usage
+
+After starting the development server, you can view the project by navigating to `http://localhost:3000` in your web browser.
+
+### Building for Production
+
+To create a production build, run:
+
+```bash
+npm run build
+
