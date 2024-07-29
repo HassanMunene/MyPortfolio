@@ -7,14 +7,9 @@
 
 This is my personal portfolio website built using React and Vite. It showcases my projects, skills, and resume.
 
-## Table of Contents
-
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [License](#license)
+# Description
+This project showcases the projects I have been involved in and the skills I have acquired over the years.
+Discover my work, get insights into my experience, and let's connect!!
 
 ## Demo
 
@@ -22,7 +17,7 @@ You can check out the live demo of my portfolio [here](https://your-portfolio-li
 
 ## Features
 
-- Responsive design
+- 📱 Responsive design
 - Smooth scrolling animations
 - Downloadable resume
 - Project showcase with detailed descriptions
