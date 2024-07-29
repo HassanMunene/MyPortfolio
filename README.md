@@ -1,7 +1,7 @@
 # My Portfolio Project
 
 ## Live Link
-![https://hassanmunene.netlify.app/][https://hassanmunene.netlify.app/]
+[https://hassanmunene.netlify.app/](https://hassanmunene.netlify.app/)
 
 ![portfolio](https://github.com/user-attachments/assets/a7f85572-35ba-4e60-8da0-7436394b126c)
 
