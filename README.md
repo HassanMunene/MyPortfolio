@@ -7,58 +7,34 @@
 
 This is my personal portfolio website built using React and Vite. It showcases my projects, skills, and resume.
 
-# Description
+# 🚀 Description
 This project showcases the projects I have been involved in and the skills I have acquired over the years.
 Discover my work, get insights into my experience, and let's connect!!
 
-## Demo
+# Demo
 
 You can check out the live demo of my portfolio [here](https://your-portfolio-link.com).
 
-## Features
+# ✨ Features
 
-- 📱 Responsive design
-- Smooth scrolling animations
-- Downloadable resume
-- Project showcase with detailed descriptions
-- Contact form
+## - 📱 Responsive design
+## -  Smooth scrolling animations
+## - Downloadable resume
+## - Project showcase with detailed descriptions
 
-## Installation
+# 🛠️ Technology Used
 
-To run this project locally, follow these steps:
+## - React.js
+## - CSS3
+## - Tailwind css
+## - Framer motion
 
-1. **Clone the repository:**
+# 📞 Let's Get in touch
 
-    ```bash
-    git clone https://github.com/your-username/your-portfolio.git
-    ```
+## - LinkedIn: [Hassan Munene](https://www.linkedin.com/in/hassan-munene-41290b237/)
+## - Email: awanzihassan6@gmail.com
+## - Phone: +254758492438
+## - Location: Nairobi, Kenya
 
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd your-portfolio
-    ```
-
-3. **Install dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-4. **Start the development server:**
-
-    ```bash
-    npm run dev
-    ```
-
-## Usage
-
-After starting the development server, you can view the project by navigating to `http://localhost:3000` in your web browser.
-
-### Building for Production
-
-To create a production build, run:
-
-```bash
-npm run build
+Made with  ❤️ by [Hassan Munene](https://github.com/HassanMunene)
 
